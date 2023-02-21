@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "instagram-server-django"
+version = "0.1.0"
+description = ""
+authors = ["leeeunbin219 <121000830+leeeunbin219@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "instagram_server_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
